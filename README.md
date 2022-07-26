@@ -18,8 +18,7 @@ Good luck!
 *QOL*
 - Reassess database and fix handleRadio functions and jsx
 
-
-## Nice to have 
+*Nice to have* 
 
 - Add new tiers to each category letting player purchase an upgrade and have the chance at making more money
 - Add hints to which solution might be the most effective and why
