@@ -18,6 +18,9 @@ Good luck!
 - Add new tiers to each category letting player purchase an upgrade and have the chance at making more money
 - Add hints to which solution might be the most effective and why
 - Edit results page to show how much money was made each show and what went wrong/went well/how player can improve next time
+- Add a meter that shows how well the show did and how much each category contributed to the total
+- Add sound! Music and effects
+- Edit categories to be more fun! Edit radio buttons, get to fit closer to figma file
 
 
 
