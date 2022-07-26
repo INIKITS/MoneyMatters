@@ -8,10 +8,16 @@ Your goal is to put on the best rock show without going over your budget. Anythi
 
 Good luck!
 
-## TODO - *Important*
+## TODO 
+
+*Important*
 
 - Setup tutorial/front page 
 - There is a bug where sometimes after returning to the game area all of the options are disabled despite the wallet having money. 
+
+*QOL*
+- Reassess database and fix handleRadio functions and jsx
+
 
 ## Nice to have 
 
