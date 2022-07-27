@@ -13,7 +13,7 @@ Good luck!
 *Important*
 
 - Setup tutorial/front page 
-- There is a bug where sometimes after returning to the game area all of the options are disabled despite the wallet having money. 
+- There is a bug where sometimes after returning to the game area all of the options are disabled despite the wallet having money. This bug is also experienced in my real life, so maybe this is a feature.
 
 *QOL*
 - Reassess database and fix handleRadio functions and jsx
