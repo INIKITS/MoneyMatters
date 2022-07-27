@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const BigCard = (props) => {
   console.log("props", props);
+
   const {
     wallet,
     setWallet,
@@ -15,13 +16,13 @@ const BigCard = (props) => {
 
   useEffect(() => {
     const HandlePower = () => {
-      if (rockinpower > 15) {
-        setWallet(wallet + 300);
+      if (rockinpower > 12) {
+        setWallet(wallet + 350);
         setMessage(`great job!`);
-      } else if (rockinpower > 10) {
-        setWallet(wallet + 150);
+      } else if (rockinpower > 7) {
+        setWallet(wallet + 200);
         setMessage("You made it this round!");
-      } else if (rockinpower < 10) {
+      } else if (rockinpower < 7) {
         setWallet(wallet - 50);
         setMessage(`oh no! This one didn't pan out. Try again. `);
       }
@@ -35,7 +36,7 @@ const BigCard = (props) => {
   const handleClick = (event) => {
     event.preventDefault();
     setRockinpower(0);
-    navigate("/game");
+    navigate("/");
   };
 
   return (

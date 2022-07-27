@@ -23,10 +23,21 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<Tutorial />} />
+        {/* <Route
+          exact
+          path="/"
+          element={
+            <Tutorial
+              rockinpower={rockinpower}
+              setRockinpower={setRockinpower}
+              wallet={wallet}
+              setWallet={setWallet}
+            />
+          }
+        /> */}
         <Route
           exact
-          path="/game"
+          path="/"
           element={
             <Game
               wallet={wallet}
